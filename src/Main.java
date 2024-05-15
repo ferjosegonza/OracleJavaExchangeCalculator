@@ -8,7 +8,7 @@ public class Main {
             Scanner lectura = new Scanner(System.in);
 
             System.out.println("""
-                    ************************************
+                    *************************************
                     Sea bienvenido/a al Conversor de Moneda =)
                                         
                     Elija una opción válida:
@@ -21,7 +21,7 @@ public class Main {
                     6) Peso colombiano -> Dólar
                     7) Salir
                                         
-                    ************************************
+                    *************************************
                     """);
             try {
                 opcion = Integer.parseInt(lectura.nextLine());
