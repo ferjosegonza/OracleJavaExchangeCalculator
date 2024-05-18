@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         int opcion = 0;
-        double monto = 0;
+        long monto = 0;
         String monedas = null;
         Scanner lectura = new Scanner(System.in);
         do {
@@ -12,7 +12,7 @@ public class Main {
                     *************************************
                     Sea bienvenido/a al Conversor de Moneda =)
                                         
-                    Elija una opción válida:
+                    Escriba el número de la opción elegida y presione Enter:
                                         
                     1) Dólar -> Peso argentino
                     2) Peso argentino -> Dólar
@@ -66,16 +66,19 @@ public class Main {
 
                     do {
                         System.out.println("Ingrese un monto para convertir de "+monedas);
+                        System.out.println("""
+                                Tenga en cuenta:
+                                - no ingresar separadores de miles
+                                - utilice el punto "." como separador si desea ingresar decimales
+                                """);
                         try {
-                            monto = Double.parseDouble(lectura.nextLine());
+                            monto = Long.parseLong(lectura.nextLine());
                             ConsultaConversion consulta = new ConsultaConversion();
                             Conversion conversion = consulta.conversion(moneda_base, moneda_objetivo, monto);
-                            System.out.println(moneda_base+" "+monto+ " corresponden a : " +moneda_objetivo+" " + conversion.conversion_result());
+                            System.out.println("Resultado: "+moneda_base+" "+monto+ " corresponden a : " +moneda_objetivo+" " + conversion.conversion_result());
                             break;
                         } catch (NumberFormatException e){
                             System.out.println("Valor inválido. Ingrese el monto a convertir, puede ser un entero o decimal (con punto).");
-                        } catch (RuntimeException e){
-                            System.out.println("No se pudo realizar la conversión: "+e.getMessage());
                         }
                     } while (true);
                 }
