@@ -6,10 +6,9 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class ConsultaConversion {
-    public Double conversion(String moneda_base, String moneda_objetivo, double monto) {
+    public Conversion conversion(String moneda_base, String moneda_objetivo, double monto) {
         // Construir la URL de la API
         // GET https://v6.exchangerate-api.com/v6/YOUR-API-KEY/pair/EUR/GBP/AMOUNT
-        String apiKey = "YOUR-API-KEY";  // Reemplaza con tu clave de API real
         URI direccion = URI.create("https://v6.exchangerate-api.com/v6/7a7bfea1b05815039e055cff/pair/"
                                     + moneda_base + "/" + moneda_objetivo + "/" + monto);
 
@@ -25,17 +24,18 @@ public class ConsultaConversion {
                     .send(request, HttpResponse.BodyHandlers.ofString());
 
             // Deserializar la respuesta JSON en un objeto CambioMoneda
-            CambioMoneda resultado = new Gson().fromJson(response.body(), CambioMoneda.class);
+            //CambioMoneda resultado = new Gson().fromJson(response.body(), CambioMoneda.class);
 
             // Devolver el resultado de la conversión
-            return resultado.getConversion_result();
+            //return resultado.getConversion_result();
+            return new Gson().fromJson(response.body(), Conversion.class);
         } catch (Exception e) {
             throw new RuntimeException("No se pudo obtener el tipo de cambio.", e);
         }
     }
 
     // Clase para mapear la respuesta de la API
-    class CambioMoneda {
+   /* class CambioMoneda {
         private String result;
         private String documentation;
         private String terms_of_use;
@@ -137,5 +137,5 @@ public class ConsultaConversion {
         public void setConversion_result(double conversion_result) {
             this.conversion_result = conversion_result;
         }
-    }
+    }*/
 }
