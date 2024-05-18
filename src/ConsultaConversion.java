@@ -8,8 +8,10 @@ import java.net.http.HttpResponse;
 public class ConsultaConversion {
     public Double conversion(String moneda_base, String moneda_objetivo, double monto) {
         // Construir la URL de la API
+        // GET https://v6.exchangerate-api.com/v6/YOUR-API-KEY/pair/EUR/GBP/AMOUNT
         String apiKey = "YOUR-API-KEY";  // Reemplaza con tu clave de API real
-        URI direccion = URI.create("https://v6.exchangerate-api.com/v6/" + apiKey + "/pair/" + moneda_base + "/" + moneda_objetivo + "/" + monto);
+        URI direccion = URI.create("https://v6.exchangerate-api.com/v6/7a7bfea1b05815039e055cff/pair/"
+                                    + moneda_base + "/" + moneda_objetivo + "/" + monto);
 
         // Crear el cliente y la solicitud HTTP
         HttpClient client = HttpClient.newHttpClient();
