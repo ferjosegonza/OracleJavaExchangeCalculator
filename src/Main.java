@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         int opcion = 0;
-        long monto = 0;
+        double monto = 0;
         String monedas = null;
         Scanner lectura = new Scanner(System.in);
         do {
@@ -72,10 +72,10 @@ public class Main {
                                 - utilice el punto "." como separador si desea ingresar decimales
                                 """);
                         try {
-                            monto = Long.parseLong(lectura.nextLine());
+                            monto = Double.parseDouble(lectura.nextLine());
                             ConsultaConversion consulta = new ConsultaConversion();
                             Conversion conversion = consulta.conversion(moneda_base, moneda_objetivo, monto);
-                            System.out.println("Resultado: "+moneda_base+" "+monto+ " corresponden a : " +moneda_objetivo+" " + conversion.conversion_result());
+                            System.out.println("Resultado: "+moneda_base+" "+monto+ " corresponden a : " +moneda_objetivo+" " + String.format("%.2f", conversion.conversion_result()));
                             break;
                         } catch (NumberFormatException e){
                             System.out.println("Valor inválido. Ingrese el monto a convertir, puede ser un entero o decimal (con punto).");
