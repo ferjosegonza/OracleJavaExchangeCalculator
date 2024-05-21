@@ -3,7 +3,7 @@
     ORACLE JAVA EXCHANGE CALCULATOR
     <br />
     <br />
-      img src="https://docusaurus.io/img/slash-introducing.svg" alt="Docusaurus"
+      <img src="[https://docusaurus.io/img/slash-introducing.svg](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/c6c2be1d-61a2-4dfb-a46c-eb958bc5dc6d)" alt="ExchangeCalculator">
   </h1>
   ![exchange calculator](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/c6c2be1d-61a2-4dfb-a46c-eb958bc5dc6d)
 </div>
