@@ -8,6 +8,11 @@
   ![exchange calculator](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/c6c2be1d-61a2-4dfb-a46c-eb958bc5dc6d)
 </div>
 
+![logo](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/cbb2bca8-67a5-488b-a0f5-527c7fdbb5f8)
+
+
+
+
 This Java project is a currency converter that allows you to convert between different currencies using real-time exchange rates. The supported currency pairs are:
 
 Dólar to Peso argentino
