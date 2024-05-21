@@ -1,8 +1,8 @@
 <div align="center">
-  ![ExchangeCalculatorLogo](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/1b95dc99-c552-43b9-abb6-ce1fe6751fac)
+  <img src="https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/1b95dc99-c552-43b9-abb6-ce1fe6751fac" alt="ExchangeCalculatorLogo">
 </div>
 
-
+![ExchangeCalculatorLogo](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/1b95dc99-c552-43b9-abb6-ce1fe6751fac)
 
 <div align="center">
   <h1 align="center">
