@@ -7,10 +7,10 @@
     ORACLE JAVA EXCHANGE CALCULATOR
   </h1>
 </div>
-<br>
+
 # 💻 Tech Stack:
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![TeamCity](https://img.shields.io/badge/teamcity-000000.svg?style=for-the-badge&logo=teamcity&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
-<br>
+
 # 🔭 Project's Description:
 This Java project is a currency converter that allows you to convert between different currencies using real-time exchange rates. The supported currency pairs are:
 
@@ -20,7 +20,7 @@ This Java project is a currency converter that allows you to convert between dif
 - Real brasileño to Dólar
 - Dólar to Peso colombiano
 - Peso colombiano to Dólar
-<br>
+
 ## The project consists of three Java files and a Gson library:
 
 <b>Main.java:</b> The main class that contains the main method to run the application. It displays a menu to select the currency pair and amount to convert.
