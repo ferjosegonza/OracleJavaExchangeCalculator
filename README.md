@@ -1,4 +1,7 @@
-![ExchangeCalculator](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/cbb2bca8-67a5-488b-a0f5-527c7fdbb5f8)
+![logo](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/1b95dc99-c552-43b9-abb6-ce1fe6751fac)
+
+
+
 <div align="center">
   <h1 align="center">
     ORACLE JAVA EXCHANGE CALCULATOR
