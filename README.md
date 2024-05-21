@@ -3,10 +3,9 @@
     ORACLE JAVA EXCHANGE CALCULATOR
     <br />
     <br />
-      ![exchange calculator](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/c6c2be1d-61a2-4dfb-a46c-eb958bc5dc6d)
       img src="https://docusaurus.io/img/slash-introducing.svg" alt="Docusaurus"
-
   </h1>
+  ![exchange calculator](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/c6c2be1d-61a2-4dfb-a46c-eb958bc5dc6d)
 </div>
 
 This Java project is a currency converter that allows you to convert between different currencies using real-time exchange rates. The supported currency pairs are:
