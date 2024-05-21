@@ -23,25 +23,28 @@ This Java project is a currency converter that allows you to convert between dif
 
 ## The project consists of three Java files and a Gson library:
 
-<b>Main.java:</b> The main class that contains the main method to run the application. It displays a menu to select the currency pair and amount to convert.
-<b>Conversion.java:</b> A record class that represents the conversion result, including the base and target currencies, conversion rate, and result.
-<b>ConsultaConversion.java:</b> A class that handles the API request to fetch the exchange rate and converts the response to a Conversion object.
-<b>gson-2.10.1.jar:</b> A library used to parse JSON data from the API response.
+<b>Main.java:</b> The main class contains the main method to run the application. It displays a menu to select the currency pair and amount to convert. The conversion is performed using the ConsultaConversion class, and the result is displayed to the user.
 
-Here's a breakdown of each Java file:
-Main.java
-This class contains the main method that starts the application. It uses a Scanner to read user input and display a menu to select the currency pair and amount to convert. The conversion is performed using the ConsultaConversion class, and the result is displayed to the user.
+<b>Conversion.java:</b> A record class that represents the conversion result, including the base and target currencies, conversion rate, and result. It uses a record, which is a new feature in Java 14, to simplify the creation of immutable classes.
 
-Conversion.java
-This record class represents the conversion result, including the base and target currencies, conversion rate, and result. It uses a record, which is a new feature in Java 14, to simplify the creation of immutable classes.
+<b>ConsultaConversion.java:</b> A class that handles the API request to fetch the exchange rate and converts the response to a Conversion object. It uses the HttpClient class to send a GET request to the API endpoint and parse the response using the Gson library.
 
-ConsultaConversion.java
-This class handles the API request to fetch the exchange rate and converts the response to a Conversion object. It uses the HttpClient class to send a GET request to the API endpoint and parse the response using the Gson library.
+<b>gson-2.10.1.jar:</b> A library used to parse JSON data from the API response. It is included in the project as a JAR file and is used by the ConsultaConversion class to parse the API response.
+Here's an explanation on how to integrate it working with IntelliJ IDEA:
+<b>First download it from mvnrepository.com the 2.10.1 version</b>
+![image](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/9abd8b62-93cb-47ef-b1e3-f7c7d178074c)
+  
+<b>Then in your IntelliJ IDEA click in the order suggested by the numbers:</b>
+1) click on "Project Structure"
+2) click on "Modules"
+3) click on "Dependencies"
+4) click on the "+" icon
+5) Select "JARs or Directories..."
+6) Search the gson-2.10.1.jar file where you download it, and click OK
+7) Click on the checkbox, and click OK
+That's it!
+![gson paso a paso](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/b260584f-38e6-4b7d-9576-d91deeed387a)
 
-The ConsultaConversion class contains a single method, conversion, that takes the base and target currencies and the amount to convert as parameters. It constructs the API URL, sends a GET request to the API endpoint, and parses the response using Gson. If the response is a valid JSON object, it returns a Conversion object with the conversion result.
-
-gson-2.10.1.jar
-This is a library used to parse JSON data from the API response. It is included in the project as a JAR file and is used by the ConsultaConversion class to parse the API response.
 
 To run the project, you need to compile and run the Main class. You can use the following command to compile the project:
 
