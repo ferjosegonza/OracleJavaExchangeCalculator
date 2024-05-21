@@ -31,6 +31,7 @@ This Java project is a currency converter that allows you to convert between dif
 
 <b>gson-2.10.1.jar:</b> A library used to parse JSON data from the API response. It is included in the project as a JAR file and is used by the ConsultaConversion class to parse the API response.
 Here's an explanation on how to integrate it working with IntelliJ IDEA:
+
 <b>First download it from mvnrepository.com the 2.10.1 version</b>
 ![image](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/9abd8b62-93cb-47ef-b1e3-f7c7d178074c)
   
@@ -42,11 +43,13 @@ Here's an explanation on how to integrate it working with IntelliJ IDEA:
 5) Select "JARs or Directories..."
 6) Search the gson-2.10.1.jar file where you download it, and click OK
 7) Click on the checkbox, and click OK
+
 That's it!
 ![gson paso a paso](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/b260584f-38e6-4b7d-9576-d91deeed387a)
 
 
 To run the project in your IntelliJ IDEA, you need to compile and run the Main class:
+
 Click on the button, or press Shift + F10
 ![image](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/4f2e5366-508c-4671-9442-2e5da42a0622)
 
@@ -54,5 +57,5 @@ Click on the button, or press Shift + F10
 Overall, this project demonstrates how to use the HttpClient class to send API requests and parse the response using Gson. It also shows how to use records, a new feature in Java 14, to simplify the creation of immutable classes.
 
 Feel free to:
-✍️ Write me to ask or suggest anything to: fer.jose.gonza@gmail.com
-💾 Download it, play with it, break it
+ ✍️ Write me to ask or suggest anything to: fer.jose.gonza@gmail.com
+ 💾 Download it, play with it, break it
