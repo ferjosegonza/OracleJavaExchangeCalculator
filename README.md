@@ -8,8 +8,7 @@
   </h1>
 </div>
 
-# 💻 Tech Stack:
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+## 💻 Tech Stack: ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 
 This Java project is a currency converter that allows you to convert between different currencies using real-time exchange rates. The supported currency pairs are:
 
@@ -20,7 +19,7 @@ This Java project is a currency converter that allows you to convert between dif
 - Dólar to Peso colombiano
 - Peso colombiano to Dólar
 
-The project consists of three Java files and a Gson library:
+##The project consists of three Java files and a Gson library:
 
 Main.java: The main class that contains the main method to run the application. It displays a menu to select the currency pair and amount to convert.
 Conversion.java: A record class that represents the conversion result, including the base and target currencies, conversion rate, and result.
