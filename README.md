@@ -1,10 +1,8 @@
+![ExchangeCalculator](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/cbb2bca8-67a5-488b-a0f5-527c7fdbb5f8)
 <div align="center">
   <h1 align="center">
     ORACLE JAVA EXCHANGE CALCULATOR
   </h1>
-  <div>
-  ![ExchangeCalculator](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/cbb2bca8-67a5-488b-a0f5-527c7fdbb5f8)
-  </div>
 </div>
 
 This Java project is a currency converter that allows you to convert between different currencies using real-time exchange rates. The supported currency pairs are:
