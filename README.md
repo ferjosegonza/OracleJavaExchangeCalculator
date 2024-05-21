@@ -46,19 +46,10 @@ That's it!
 ![gson paso a paso](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/b260584f-38e6-4b7d-9576-d91deeed387a)
 
 
-To run the project, you need to compile and run the Main class. You can use the following command to compile the project:
+To run the project in your IntelliJ IDEA, you need to compile and run the Main class:
+Click on the button, or press Shift + F10
+![image](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/4f2e5366-508c-4671-9442-2e5da42a0622)
 
-Edit
-Full Screen
-Copy code
-javac -cp gson-2.10.1.jar src/Main.java src/Conversion.java src/ConsultaConversion.java
-And then run the compiled Main class:
-
-Edit
-Full Screen
-Copy code
-java -cp .:gson-2.10.1.jar Main
-Note: The classpath separator (:) may differ depending on your operating system. On Windows, use ; instead of :.
 
 Overall, this project demonstrates how to use the HttpClient class to send API requests and parse the response using Gson. It also shows how to use records, a new feature in Java 14, to simplify the creation of immutable classes.
 
