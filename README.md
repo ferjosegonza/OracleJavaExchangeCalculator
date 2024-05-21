@@ -11,11 +11,7 @@
 # 💻 Tech Stack:
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![TeamCity](https://img.shields.io/badge/teamcity-000000.svg?style=for-the-badge&logo=teamcity&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=jazminLU&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=jazminLU&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=jazminLU&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
+# 🔭 Project's Description:
 This Java project is a currency converter that allows you to convert between different currencies using real-time exchange rates. The supported currency pairs are:
 
 - Dólar to Peso argentino
@@ -25,7 +21,7 @@ This Java project is a currency converter that allows you to convert between dif
 - Dólar to Peso colombiano
 - Peso colombiano to Dólar
 
-##The project consists of three Java files and a Gson library:
+## The project consists of three Java files and a Gson library:
 
 Main.java: The main class that contains the main method to run the application. It displays a menu to select the currency pair and amount to convert.
 Conversion.java: A record class that represents the conversion result, including the base and target currencies, conversion rate, and result.
