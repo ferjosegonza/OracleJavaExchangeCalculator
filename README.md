@@ -7,10 +7,10 @@
     ORACLE JAVA EXCHANGE CALCULATOR
   </h1>
 </div>
-
+<br>
 # 💻 Tech Stack:
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![TeamCity](https://img.shields.io/badge/teamcity-000000.svg?style=for-the-badge&logo=teamcity&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
-
+<br>
 # 🔭 Project's Description:
 This Java project is a currency converter that allows you to convert between different currencies using real-time exchange rates. The supported currency pairs are:
 
@@ -20,13 +20,13 @@ This Java project is a currency converter that allows you to convert between dif
 - Real brasileño to Dólar
 - Dólar to Peso colombiano
 - Peso colombiano to Dólar
-
+<br>
 ## The project consists of three Java files and a Gson library:
 
-Main.java: The main class that contains the main method to run the application. It displays a menu to select the currency pair and amount to convert.
-Conversion.java: A record class that represents the conversion result, including the base and target currencies, conversion rate, and result.
-ConsultaConversion.java: A class that handles the API request to fetch the exchange rate and converts the response to a Conversion object.
-gson-2.10.1.jar: A library used to parse JSON data from the API response.
+<b>Main.java:</b> The main class that contains the main method to run the application. It displays a menu to select the currency pair and amount to convert.
+<b>Conversion.java:</b> A record class that represents the conversion result, including the base and target currencies, conversion rate, and result.
+<b>ConsultaConversion.java:</b> A class that handles the API request to fetch the exchange rate and converts the response to a Conversion object.
+<b>gson-2.10.1.jar:</b> A library used to parse JSON data from the API response.
 
 Here's a breakdown of each Java file:
 Main.java
