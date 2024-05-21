@@ -32,7 +32,8 @@ This Java project is a currency converter that allows you to convert between dif
 <b>gson-2.10.1.jar:</b> A library used to parse JSON data from the API response. It is included in the project as a JAR file and is used by the ConsultaConversion class to parse the API response.
 
 Here's an explanation on how to integrate it working with IntelliJ IDEA:
-First download it from mvnrepository.com the 2.10.1 version
+First download it from <a href="https://mvnrepository.com/">mvnrepository.com</a> the 2.10.1 version
+<a></a>
 ![image](https://github.com/ferjosegonza/OracleJavaExchangeCalculator/assets/96452620/9abd8b62-93cb-47ef-b1e3-f7c7d178074c)
   
 <b>Then in your IntelliJ IDEA click in the order suggested by the numbers:</b>
@@ -56,5 +57,5 @@ Click on the button, or press Shift + F10
 Overall, this project demonstrates how to use the HttpClient class to send API requests and parse the response using Gson. It also shows how to use records, a new feature in Java 14, to simplify the creation of immutable classes.
 
 <b>Feel free to: </b>
-✍️ Write me to ask or suggest anything to: fer.jose.gonza@gmail.com d
-💾 Download it, play with it, break it
+<br>✍️ Write me to ask or suggest anything to: fer.jose.gonza@gmail.com
+<br>💾 Download it, play with it, break it
